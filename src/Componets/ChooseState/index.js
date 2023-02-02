@@ -10,7 +10,7 @@ const ChooseStateComponents = () => {
                     cities && cities.length > 0 && cities.map((city)=>{
                         return (
                             <option>
-                                {city.city}
+                                {city.city} - {city.admin_name}
                             </option>
                         )
                     })
