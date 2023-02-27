@@ -1,5 +1,6 @@
 import React from "react";
 import ChooseStateComponents from "./ChooseState";
+import WeekInfoCardComponents from "./WeekinfoCard";
 
 const HomeComponets = () => {
     return (
@@ -9,7 +10,7 @@ const HomeComponets = () => {
                 Left components
                 <div className="rightSide">
                     <ChooseStateComponents/> <br/>
-                    2. week info <br/>
+                    <WeekInfoCardComponents/> <br/>
                     3. humity
                 </div>
             </div>
